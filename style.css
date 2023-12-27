@@ -299,7 +299,7 @@ body{
 
 footer{
     width: 100%;
-    height: 800px;
+    height: 875px;
     background-color: #f5f5f7;
     margin-top: 30px;
     display: flex;
@@ -310,7 +310,6 @@ footer{
 #footdiv1{
     height: 290px;
     width: 900px;
-    background-color: red;
 }
 
 .footele{
@@ -319,8 +318,51 @@ footer{
 }
 
 #footdiv2{
-    height: 400px;
+    height: 470px;
     width: 900px;
-    background-color: blue;
+    display: flex;
+    justify-content: space-between;
 }
 
+.footdiv2ele{
+    width: 150px;
+    height: 465px;
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+}
+
+.fdivtitle{
+    font-size: 13px;
+    color: #1d1d1f;
+    font-weight: bold;
+}
+
+.fdivele{
+    font-size: 13px;
+    color: #424245;
+    margin-bottom: 10px;
+}
+
+#footdiv3{
+    height: 63px;
+    width: 900px;
+}
+
+#moreways{
+    margin-top: 30px;
+}
+
+#footdiv4{
+    height: 40px;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#privacy{
+    margin-right: 150px;
+}
